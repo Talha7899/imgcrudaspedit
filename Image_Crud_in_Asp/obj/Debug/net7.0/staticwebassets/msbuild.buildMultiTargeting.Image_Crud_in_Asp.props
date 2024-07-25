@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Image_Crud_in_Asp.props" />
+</Project>

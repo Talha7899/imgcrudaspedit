@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Image_Crud_in_Asp.props" />
+</Project>
