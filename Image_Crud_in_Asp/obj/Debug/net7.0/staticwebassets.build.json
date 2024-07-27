@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "92t5DIryhukj3Pz5jQs5yIVLRJtyj0csuBP3eO2qwAQ=",
+  "Hash": "ZZn9Sf3deDW2twD2xF9r7buo/2xsZ8lq+kFP3gK9sp4=",
   "Source": "Image_Crud_in_Asp",
   "BasePath": "_content/Image_Crud_in_Asp",
   "Mode": "Default",
@@ -1919,6 +1919,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Identity": "C:\\Users\\asp\\Desktop\\Asp.Net Core Mvc\\Crud_Operations_in_Asp\\Image_Crud_in_Asp\\wwwroot\\uploads\\241925101954product-2.jpg",
+      "SourceId": "Image_Crud_in_Asp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asp\\Desktop\\Asp.Net Core Mvc\\Crud_Operations_in_Asp\\Image_Crud_in_Asp\\wwwroot\\",
+      "BasePath": "_content/Image_Crud_in_Asp",
+      "RelativePath": "uploads/241925101954product-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\241925101954product-2.jpg"
     },
     {
       "Identity": "C:\\Users\\asp\\Desktop\\Asp.Net Core Mvc\\Crud_Operations_in_Asp\\Image_Crud_in_Asp\\wwwroot\\uploads\\243323113317product-1.jpg",

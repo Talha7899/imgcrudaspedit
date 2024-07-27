@@ -107,7 +107,33 @@ namespace Image_Crud_in_Asp.Controllers
             ViewBag.CatId = new SelectList(db.Categories, "Catid", "CatName");
             return RedirectToAction("Index");
         }
+
+        // Delete Image From Database:
+
+        [HttpGet]
+
+        public IActionResult Delete(int id)
+        {
+            var itemData = db.Items.Include(x => x.Cat);
+            var itemDetail = itemData.FirstOrDefault(b => b.Id == id);
+            if (itemDetail != null)
+            {
+                //return RedirectToAction("Index");
+                return View(itemDetail);
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(Item item)
+        {
+            db.Items.Remove(item);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
-
-
 }
